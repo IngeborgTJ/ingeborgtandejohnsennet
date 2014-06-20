@@ -1,0 +1,124 @@
+body 
+
+{
+	background:  -webkit-gradient(linear,0% 0%, 0% 100%,from(#f5eae3),to(#ffebe9));
+}
+
+.content_wrapper
+
+{
+	max-width: 1200px;
+	max-height: 960px;
+	margin-top: 20px;
+} 
+
+.page_wrapper 
+
+{
+	max-width: 1360px;
+	max-height: 960px;
+}
+
+
+.content_wrapper nav 
+
+{
+	margin-left: 31%;
+	margin-top: 30px;
+}
+
+.content_wrapper nav a 
+
+{	text-decoration: none;
+	margin-left: 3px;
+	color: #333;
+	font-size: 20px;
+}
+
+.content_wrapper nav a:hover 
+
+{	text-decoration: none;
+	background-color: #fff8e3;
+	color: #333;
+}
+
+.content_wrapper section h2
+
+{	font-family: Times;
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.page_wrapper section h1 
+
+{
+	font-family: Perpetua Titling MT;
+	font-size: 24px;
+	text-align: center;
+	color: #333;
+	margin-top: 30px;
+}
+
+.page_wrapper section h2
+
+{	font-family: Times;
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+}
+
+.page_wrapper img 
+
+{	max-height: 300px;
+	max-width: 300px;
+	margin-top: 20px;
+	margin-left: 38%;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #555;
+}
+
+.page_wrapper h3
+
+{
+	font-family: Times;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+}
+
+#canvas
+
+{	margin-left: 460px;
+	margin-top: 20px; 
+}
+
+section h3 a 
+
+{
+	text-decoration: none;
+	padding: 12px;
+	background-color: #ccc;
+	margin-left: 5px;
+	color: #333;	
+}
+
+section h3 a:hover 
+
+{
+	text-decoration: none;
+	padding: 12px;
+	background-color: #fff8e3;
+	margin-left: 5px;
+	color: #333;	
+}
+
+section h3
+
+{
+	font-family: Times;
+	font-size: 16px;
+	text-align: center;
+}
