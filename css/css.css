@@ -23,7 +23,7 @@ body
 .content_wrapper nav 
 
 {
-	margin-left: 31%;
+	margin-left: 28%;
 	margin-top: 30px;
 }
 
@@ -71,12 +71,12 @@ body
 
 .page_wrapper img 
 
-{	max-height: 300px;
-	max-width: 300px;
+{	max-height: 65%;
+	max-width: 65%;
 	margin-top: 20px;
-	margin-left: 38%;
+	margin-left: 31%;
 	border-style: solid;
-	border-width: 10px;
+	border-width: 5px;
 	border-color: #555;
 }
 
@@ -84,7 +84,7 @@ body
 
 {
 	font-family: Times;
-	font-size: 14px;
+	font-size: 16px;
 	color: #333;
 	text-align: center;
 }
