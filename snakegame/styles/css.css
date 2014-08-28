@@ -1,46 +1,51 @@
 body 
 
 {
-	background:  -webkit-gradient(linear,0% 0%, 0% 100%,from(#f5eae3),to(#ffebe9));
+	background-color: #e8ddce;
+	max-width: 100%;
+	max-height: 100%;
 }
 
-.content_wrapper
+.menu 
 
 {
-	max-width: 1500px;
-	max-height: 960px;
-	margin-top: 20px;
-} 
+	background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+	display: block;
+	margin: 0 auto
+}
 
-.page_wrapper 
+
+.menu nav ul 
 
 {
-	max-width: 1500px;
-	max-height: 960px;
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 0.5%;
 }
 
-
-.content_wrapper nav 
+.menu nav li 
 
 {
-	margin-left: 31%;
-	margin-top: 30px;
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-top: 3px;
+  text-align: center;
 }
 
-.content_wrapper nav a 
+.menu nav li  a 
 
-{	text-decoration: none;
-	margin-left: 3px;
-	color: #333;
-	font-size: 20px;
+{
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.content_wrapper nav a:hover 
-
-{	text-decoration: none;
-	background-color: #fff8e3;
-	color: #333;
-}
 
 .content_wrapper section h1 
 
@@ -51,7 +56,7 @@ body
 	color: #333;
 	margin-top: 30px;
 }
-.content_wrapper section h2
+.page_content section h2
 
 {	font-family: Times;
 	font-size: 20px;
@@ -79,7 +84,7 @@ body
 	border-color: #555;
 }
 
-.page_wrapper section h3
+.page_content section h3
 
 {
 	font-family: Times;
@@ -90,15 +95,15 @@ body
 
 #canvas
 
-{	margin-left: 460px;
-	margin-top: 20px; 
+{	
+	display: block;
+	margin: 0 auto; 
 }
 
 section h3 a 
 
 {
 	text-decoration: none;
-	padding: 12px;
 	background-color: #ccc;
 	margin-left: 5px;
 	color: #333;	

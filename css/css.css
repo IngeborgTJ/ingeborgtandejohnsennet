@@ -10,7 +10,8 @@ body
 
 {
 	background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
-	margin-left: 5%;
+	display: block;
+	margin: 0 auto
 }
 
 
@@ -19,9 +20,9 @@ body
 {
   border-top: 1px solid #636366;
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  margin-left: 0.5%;
+  
 }
 
 .menu nav li 
@@ -31,7 +32,6 @@ body
   font-family: 'Open Sans', sans-serif;
   line-height: 45px;
   padding-bottom: 3px;
-  padding-left: 10px;
   padding-top: 3px;
   text-align: center;
 }
@@ -45,6 +45,7 @@ body
   text-transform: uppercase;
 }
 
+
 .page_content h1
 
 {
@@ -54,27 +55,21 @@ body
 	text-align: center;
 }
 
-<<<<<<< HEAD
 .page_content h2
-=======
-.page_wrapper img 
-
-{	max-height: 60%;
-	max-width: 60%;
-	margin-top: 20px;
-	margin-left: 38%;
-	border-style: solid;
-	border-width: 5px;
-	border-color: #555;
-}
-
-.page_wrapper h3
->>>>>>> FETCH_HEAD
 
 {
 	font-family: Garamond, Times;
 	color: #333;
 	font-size: 24px;
+	text-align: center;
+}
+
+.page_content h3
+
+{
+	font-family: Garamond, Times;
+	color: #333;
+	font-size: 18px;
 	text-align: center;
 }
 
@@ -90,11 +85,3 @@ body
 	border-color: #333;
 }
 
-.page_content h3
-
-{
-	font-family: Garamond, Times;
-	color: #333;
-	font-size: 18px;
-	text-align: center;
-}
