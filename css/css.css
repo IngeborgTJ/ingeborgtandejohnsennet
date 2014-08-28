@@ -1,124 +1,100 @@
 body 
 
 {
-	background:  -webkit-gradient(linear,0% 0%, 0% 100%,from(#f5eae3),to(#ffebe9));
+	background-color: #e8ddce;
+	max-width: 100%;
+	max-height: 100%;
 }
 
-.content_wrapper
+.menu 
 
 {
-	max-width: 1200px;
-	max-height: 960px;
-	margin-top: 20px;
-} 
+	background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+	margin-left: 5%;
+}
 
-.page_wrapper 
+
+.menu nav ul 
 
 {
-	max-width: 1360px;
-	max-height: 960px;
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 0.5%;
 }
 
-
-.content_wrapper nav 
+.menu nav li 
 
 {
-	margin-left: 28%;
-	margin-top: 30px;
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-top: 3px;
+  text-align: center;
 }
 
-.content_wrapper nav a 
-
-{	text-decoration: none;
-	margin-left: 3px;
-	color: #333;
-	font-size: 20px;
-}
-
-.content_wrapper nav a:hover 
-
-{	text-decoration: none;
-	background-color: #fff8e3;
-	color: #333;
-}
-
-.content_wrapper section h2
-
-{	font-family: Times;
-	font-size: 20px;
-	color: #333;
-	text-align: center;
-	margin-top: 25px;
-}
-
-.page_wrapper section h1 
+.menu nav li  a 
 
 {
-	font-family: Perpetua Titling MT;
-	font-size: 24px;
-	text-align: center;
-	color: #333;
-	margin-top: 30px;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.page_wrapper section h2
+.page_content h1
 
-{	font-family: Times;
-	font-size: 18px;
+{
+	font-family: Garamond, Times;
 	color: #333;
+	font-size: 36px;
 	text-align: center;
 }
 
+<<<<<<< HEAD
+.page_content h2
+=======
 .page_wrapper img 
 
-{	max-height: 65%;
-	max-width: 65%;
+{	max-height: 60%;
+	max-width: 60%;
 	margin-top: 20px;
-	margin-left: 31%;
+	margin-left: 38%;
 	border-style: solid;
 	border-width: 5px;
 	border-color: #555;
 }
 
 .page_wrapper h3
+>>>>>>> FETCH_HEAD
 
 {
-	font-family: Times;
-	font-size: 16px;
+	font-family: Garamond, Times;
 	color: #333;
+	font-size: 24px;
 	text-align: center;
 }
 
-#canvas
-
-{	margin-left: 460px;
-	margin-top: 20px; 
-}
-
-section h3 a 
+.page_content img 
 
 {
-	text-decoration: none;
-	padding: 12px;
-	background-color: #ccc;
-	margin-left: 5px;
-	color: #333;	
+	max-width: 50%;
+	max-height: 50%;
+	display: block;
+	margin: auto;
+	border: 5px;
+	border-style: dashed;
+	border-color: #333;
 }
 
-section h3 a:hover 
+.page_content h3
 
 {
-	text-decoration: none;
-	padding: 12px;
-	background-color: #fff8e3;
-	margin-left: 5px;
-	color: #333;	
-}
-
-section h3
-
-{
-	font-family: Times;
-	font-size: 16px;
+	font-family: Garamond, Times;
+	color: #333;
+	font-size: 18px;
 	text-align: center;
 }
