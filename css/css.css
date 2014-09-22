@@ -55,7 +55,7 @@ body
 	text-align: center;
 }
 
-.page_content h2
+.page_content h2 
 
 {
 	font-family: Garamond, Times;
@@ -64,7 +64,7 @@ body
 	text-align: center;
 }
 
-.page_content h3
+.page_content h3 
 
 {
 	font-family: Garamond, Times;
@@ -85,3 +85,43 @@ body
 	border-color: #333;
 }
 
+
+.oppgaver h2
+
+{
+	font-family: Garamond, Times;
+	color: #333;
+	font-size: 24px;
+	text-align: center;
+}
+
+.oppgaver h3 
+
+{
+	font-family: Garamond, Times;
+	color: #333;
+	font-size: 18px;
+	text-align: center;
+}
+
+.oppgaver ul 
+
+{
+	text-align: center;
+}
+
+.oppgaver ul li 
+
+{	
+	display: inline-block;
+	list-style: none;	
+}
+
+.oppgaver a
+
+{
+	text-decoration: none;
+	font-family: Garamond, Times;
+	color: #666;
+	font-size: 19px;
+}
