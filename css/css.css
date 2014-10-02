@@ -60,8 +60,10 @@ body
 {
 	font-family: Garamond, Times;
 	color: #333;
-	font-size: 24px;
-	text-align: center;
+	font-size: 19px;
+	float: left;
+	margin-bottom: 5%;
+	margin-left: 2%;
 }
 
 .page_content h3 
@@ -69,7 +71,7 @@ body
 {
 	font-family: Garamond, Times;
 	color: #333;
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
 }
 
