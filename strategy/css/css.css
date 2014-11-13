@@ -1,0 +1,67 @@
+body
+
+{
+	background-color: #f8f7f4;	
+}
+
+.intro h1
+
+{
+    font-family:  Palatino Linotype, Capitals, Big Caslon;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+}
+
+.visjon h2, .hensikt h2, .kundegruppe h2, .senarios h2, .elementer h2 
+
+{
+    font-family: Lucida Bright, Adobe Caslon Pro;
+    font-size: 20px;
+    color: #333;
+    margin-left: 1%;
+}
+
+.elementer h3
+
+{
+    font-family: Lucida Bright, Adobe Caslon Pro;
+    font-size: 18px;
+    color: #333;
+    margin-left: 1%;
+}
+
+.elementer h4
+
+{
+    font-family: Lucida Bright, Adobe Caslon Pro;
+    font-size: 16px;
+    color: #333;
+    margin-left: 1%;
+}
+
+.elementer h5
+
+{
+    font-family: Lucida Bright, Adobe Caslon Pro;
+    font-size: 14px;
+    color: #333;
+    margin-left: 1%;
+}
+
+.visjon p, .hensikt p, .kundegruppe p, .senarios p, .elementer p
+
+{
+    font-family: Lucida Bright, Adobe Caslon Pro;
+    font-size: 16px;
+    color: #333;
+    margin-left: 1%;
+}
+
+.elementer #hjerte img, .elementer #trashcan img
+
+{
+    max-height: 15%;
+    max-width: 15%;
+    margin-left: 1%;
+}
