@@ -1,0 +1,66 @@
+body 
+
+{
+	 background-color: #f7fbff;
+}
+
+.intro h1
+
+{	text-align: center;
+	color: #333;
+	font: 36px PT;
+}
+
+.ide h2, .visjon h2, .hensikt h2, .kundegruppe h2, .senarios h2, .elementer h2,  .teknologi h2, .elementer h3 
+
+{
+	color: #333;
+	font: 20px PT;
+	margin-left: 1%;
+}
+
+#mekkanikk h2 
+
+{
+	color: #333;
+	font: 20px PT;
+	margin-left: 2%;
+}
+
+.senarios a 
+
+{
+	color: #333;
+	font: 16px PT;
+	text-decoration: none;
+}
+
+.elementer #board img 
+
+{
+	max-width: 50%;
+	max-height: 50%;
+	margin-bottom: 2%;
+}
+
+.elementer #woman img 
+
+{
+	max-width: 10%;
+	max-height: 10%;
+	margin-bottom: 5%;
+}
+
+.elementer #dice img, .elementer #help img, .elementer #overtime img
+
+{
+	margin-bottom: 2%;	
+} 
+
+.ide p, .visjon p, .hensikt p, .kundegruppe p, .senarios p, .elementer p, .teknologi p, #mekkanikk p 
+
+{
+	color: #333;
+	font: 16px PT;
+	margin-left: 1%;
+}
