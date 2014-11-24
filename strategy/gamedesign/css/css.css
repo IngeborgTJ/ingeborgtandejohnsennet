@@ -19,20 +19,12 @@ body
 	margin-left: 1%;
 }
 
-#mekkanikk h2 
+.mekkanikk h2 
 
 {
 	color: #333;
 	font: 20px PT;
 	margin-left: 2%;
-}
-
-.senarios a 
-
-{
-	color: #333;
-	font: 16px PT;
-	text-decoration: none;
 }
 
 .elementer #board img 
@@ -57,7 +49,7 @@ body
 	margin-bottom: 2%;	
 } 
 
-.ide p, .visjon p, .hensikt p, .kundegruppe p, .senarios p, .elementer p, .teknologi p, #mekkanikk p 
+.ide p, .visjon p, .hensikt p, .kundegruppe p, .senarios p, .elementer p, .teknologi p, .mekkanikk p 
 
 {
 	color: #333;
