@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="no">
+
+<head> 
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/css.css" />
+	<link rel="stylesheet" href="http://normalize-css.googlecode.com/svn/trunk/normalize.min.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"> </script>
+	<script  type="text/javascript" src="main.js"> </script>
+	
+	
+	<title> Everyday Challenge </title> 
+
+</head>
+
+<body>
+
+<header>
+	<div id="content_wrapper">
+		
+		<section> <h1>Hverdagens små I - landsproblemer, også kalt: <span> Everyday Challenge </span> </h1> </section>
+		
+	</div>
+		
+		<div id="main_wrapper">
+			
+			<h3>  <a href="http://ingeborgtandejohnsen.net/strategy/gamedesign/index.html">Strategi Gamedesgin</a> </h3>
+		
+			<section> <h2> Spilleregler: </h2> </section> 
+			<ol>
+				<li> Grønt felt (hjelp/belønning - Bla nedover å se hva kortet sier) </li>
+				<li> Grått felt - oppgave (Velg et beige kort, og vent så mange sekunder som kortet sier)  </li>
+				<li> Rød snu pil - ta tre steg tilbake </li>
+				<li> Hus - butikk/servicested - Du må følge rekkefølgen på kortene slik de er satt opp (gjelder ikke "hjelp - kortet"), med mindre man skulle komme til mål før man får brukt alle sammen  </li>
+				<li> Sort snu pil - tilbake til start </li>
+				<li> <span> NB! </span> Det er viktig at man følger brettet fra start til mål, og det er IKKE lov å bruke hjelpekortert med mindre man faktisk lander på "Hjelp" </li>
+				<li> Bruk W, S, A, og D for å flytte henne, og du må huske også å kaste terningen mellom hver gang </li>
+				<li> Du må komme deg i mål før tiden har gått ut, hvis du ikke rekker dette har du tapt og du må starte spillet på nytt! </li>  
+				<li> Mål ved enden av brettet </li>
+				
+			</ol>
+
+			<div id="clock">
+
+		<video controls autoplay width="400" height="255">
+				<source src="videos/nedtelling.mp4" type="video/mp4"/>
+				<source src="videos/nedtelling.oggtheora.ogv" type="video/ogv"/>
+				<source src="videos/nedtelling.webmhd.webm" type="video/webm"/>
+			
+				
+		<div id="no_flash">
+				
+			Sorry but your browser can't show this video.
+			
+		<script type="text/javascript">
+			
+			  var flashvars = { file:'../videos/nedtelling.mp4',autostart:'true' };
+			  var params = { allowfullscreen:'true', allowscriptaccess:'always' };
+			  var attributes = { id:'player1', name:'player1' };
+			
+			swfobject.embedSWF('fallback/fallback.swf','no_flash','1050','576','9.0.115','false', flashvars, params, attributes);
+			  
+			</script>
+		</div>
+
+		</video>
+
+		</div>
+		
+		<nav> <a href="http://ingeborgtandejohnsen.net/gamedesign/index.html">Klikk her for å prøve spillet på nytt </a> </nav>
+			
+	</div>		
+			
+</header>
+
+	<div id="player"> 
+			
+			 <img src="images/woman.png" alt="woman.png" id="playerImage" />
+		</div> 
+
+	<div id="board_wrapper">
+		
+			 <img src="images/brettet_mappeversjon.jpg" alt="brettet_mappeversjon.jpg" />
+
+		</div>
+			
+		
+	<div id="dicestyle">
+	
+		<img src="images/dice/d1.gif" id="dice" alt="d1.gif" /> 
+	
+</div>
+	
+	<form>
+		<input type="button" id="terning" value="Kast terning" />
+	</form>
+	
+	<div id="kort">
+		
+		<ol>
+			<li> <img src="images/kort/hjelp.jpg" alt="hjelp.jpg"> </li>
+			<li> <img src="images/kort/overtid.jpg" alt="overtid.jpg"> </li>
+			<li> <img src="images/kort/tjeneste.jpg" alt="tjeneste.jpg"> </li>
+			<li> <img src="images/kort/transport.jpg" alt="transport.jpg"> </li>
+			<li> <img src="images/kort/mat.jpg" alt="mat.jpg"> </li>
+			<li> <img src="images/kort/håndball.jpg" alt="håndball.jpg"> </li>
+			<li> <img src="images/kort/klær.jpg" alt="klær.jpg"> </li>
+			<li> <img src="images/kort/fotballkamp.jpg" alt="fotballkamp.jpg"> </li>
+
+			
+			</ol>
+	</div>
+
+	
+	
+	</body>
+</html>	

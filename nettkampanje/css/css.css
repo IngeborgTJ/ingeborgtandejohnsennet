@@ -1,0 +1,247 @@
+body
+
+{
+	background-color: #f8f7f4;	
+}
+
+.strategy h2
+
+{
+	font-family: Lucida Bright, Adobe Caslon Pro;
+	font-size: 22px;
+	color: #333;
+	text-align: center;
+}
+
+.strategy a, a:visited 
+
+{
+	display: block;
+	margin: 0 auto;
+	font-family: Lucida Bright, Adobe Caslon Pro;
+	font-size: 22px;
+	color: #333;
+}
+.content_wrapper
+
+{
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.main_content
+
+{
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+ .content_wrapper #logo img
+
+{
+	max-width: 33.375em;
+	max-height: 8.313em;
+	margin-left: 30%;
+	width: 60%;
+}
+
+.content_wrapper section h1 
+
+{
+	font-family: Palatino Linotype, Capitals, Big Caslon;
+	font-size: 1.8em;
+	color: #4a4f55;
+	text-align: center;
+	font-weight: bolder;	
+}
+
+.video
+
+{
+	margin-left: 8%;
+	margin-top: 2%;
+}
+
+ .main_content #fakta h2
+
+{	text-align: center;
+	margin-top: 5%;
+	font-family: Lucida Bright, Adobe Caslon Pro;
+	font-size: 1.4em;
+	color: #4a4f55;
+}
+
+.main_content #fakta section p
+
+{
+	font-family: Lucida Bright, Adobe Caslon Pro;
+	font-size: 1em;
+	color: #4a4f55;
+	margin-left: 10%;
+	margin-bottom: 3%;
+} 
+
+.main_content #fakta section p span
+
+{
+	font-family: Lucida Bright, Adobe Caslon Pro;
+	font-size: 1em;
+	color: #4a4f55;
+	font-weight: bold;
+}
+
+.main_content section h3 
+
+{
+	font-family: Lucida Bright, Adobe Caslon Pro;
+	font-size: 1.4em;
+	color: #4a4f55;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.main_content section h4 
+
+{
+	font-family: Lucida Bright, Adobe Caslon Pro;
+	font-size: 1em;
+	font-weight: bold;
+	color: #4a4f55;
+	margin-top: 2%;
+	text-align: center;
+}
+
+.main_content ul li
+
+{
+	list-style: none;
+	margin-top: 5%;
+}
+
+.main_content ul li img
+
+{	margin-left: 24%;
+	max-width: 31.813em;
+	max-height: 18.750em;
+	width: 50%;
+	height: 55%;
+}
+
+.main_content #bekreftelsesmelding img 
+
+{	margin-left: 36%;
+	max-width: 20.375em;
+	max-height: 34.750em;
+	width: 30%;
+	height: 60%;
+	margin-top: 5%;
+}
+
+
+.main_content ul li p 
+
+{
+	font-family: Lucida Bright, Adobe Caslon Pro;
+	font-size: 1em;
+	color: #4a4f55;
+	text-align: center;
+}
+
+.main_content #bekreftelsesmelding p 
+
+{
+	font-family: Lucida Bright, Adobe Caslon Pro;
+	font-size: 1em;
+	color: #4a4f55;
+	text-align: center;
+}
+
+.main_content #trashcan img 
+
+{
+	margin-left: 43%;
+	margin-top: 7%;
+	max-width: 9.2em;
+	max-height: 12.5em;
+	width: 30%;	
+}
+
+.main_content #heart img 
+
+{ 	margin-bottom: 5%;
+	margin-left: 94%;
+	max-width: 5.6em;
+	max-height: 5.6em;
+	width: 40%;
+}
+	
+.main_content #appstore img 
+
+{
+	max-width: 20.750em;
+	max-height: 10.68em;
+	margin-left: 34%;
+	width: 40%;
+}
+
+.main_content #android img
+
+{
+	max-width: 15.6em;
+	max-height: 12.2em;
+	margin-left: 38.5%;
+	width: 30%;
+}
+
+.main_content #heart_animation
+
+{
+	width: 50%;
+	position: relative;
+	top: 120px;
+	-webkit-animation: ani_hjerte 3s infinite;
+}
+
+@-webkit-keyframes ani_hjerte {
+
+		0% { 
+			opacity: 0;
+			right: -128px;
+			top: 55px;	
+		}
+		
+	1% { 
+			opacity: 1;
+			right: -128px;
+			top: 55px;	
+		}
+	
+	25% {
+		opacity: 1;
+		right: 17px;
+		top: 55px;
+	}
+	
+	50% {
+		opacity: 1;
+		right: 17px;
+		top: 55px;
+	}
+	
+	85% {
+		opacity: 1;
+		right: 17px;
+		top: 55px;
+	}
+	
+	100% {
+		opacity:0;
+		right: 17px;
+		bottom: 55px;
+	}
+}
+
