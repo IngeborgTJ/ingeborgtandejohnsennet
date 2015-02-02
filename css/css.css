@@ -46,6 +46,13 @@ body
   text-transform: uppercase;
 }
 
+.page_content
+
+{
+	max-height: 100%;
+	max-width: 100%;
+}
+
 
 .page_content h1
 
@@ -62,8 +69,8 @@ body
 	font-family: Garamond, Times;
 	color: #333;
 	font-size: 19px;
-	float: left;
-	margin-bottom: 5%;
+	text-align: center;
+	margin-bottom: 2%;
 }
 
 .page_content h3 
@@ -81,11 +88,10 @@ body
 	max-width: 40%;
 	max-height: 40%;
 	display: block;
-	margin: auto;
+	margin: 0 auto;
 	border: 5px;
 	border-style: dashed;
 	border-color: #333;
-	margin-top: 5%;
 }
 
 
