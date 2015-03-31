@@ -53,11 +53,11 @@ $(function() {
                 break;
 
             case 83: // Down//
-                $("#playerImage").css("top", position.top - 700 + "px");
+                $("#playerImage").css("top", position.top - 680 + "px");
                 break;
 
             case 87: // Up  //
-                $("#playerImage").css("top", position.top - 910 + "px");
+                $("#playerImage").css("top", position.top - 880 + "px");
                 break;
 
             

@@ -63,25 +63,6 @@ body
 	text-align: center;
 }
 
-.page_content h2 
-
-{
-	font-family: Garamond, Times;
-	color: #333;
-	font-size: 19px;
-	text-align: center;
-	margin-bottom: 2%;
-}
-
-.page_content h3 
-
-{
-	font-family: Garamond, Times;
-	color: #333;
-	font-size: 16px;
-	text-align: center;
-}
-
 .page_content img 
 
 {
@@ -92,6 +73,52 @@ body
 	border: 5px;
 	border-style: dashed;
 	border-color: #333;
+	margin-bottom: 2%;
+}
+
+.page_content h2
+
+{
+	font-family: Garamond, Times;
+	color: #333;
+	font-size: 19px;
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+
+.page_content p
+
+{
+	max-width: 45%;
+	max-height: 45%;
+    margin-left: 32%;
+    font-family: Garamond, Times;
+	font-size: 18px;
+	color: #333;
+	
+}
+
+.page_content h3
+
+{
+	max-width: 45%;
+	max-height: 45%;
+    font-family: Garamond, Times;
+	font-size: 18px;
+	margin-left: 32%;
+	color: #333;
+	
+}
+
+.page_content h4
+
+{
+	font-family: Garamond, Times;
+	color: #333;
+	font-size: 17px;
+	text-align: center;
+	margin-bottom: 1%;
 }
 
 
