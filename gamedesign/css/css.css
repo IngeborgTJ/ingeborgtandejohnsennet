@@ -17,7 +17,12 @@ section h1 span
 	font: italic 1.200em PT;
 }
 
+#main_wrapper h3 a
 
+{
+	color: #4f4f4f;
+	font: 1.125em PT;
+}
 
 #main_wrapper nav a
 
