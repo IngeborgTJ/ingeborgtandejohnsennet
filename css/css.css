@@ -66,14 +66,11 @@ body
 .page_content img 
 
 {
-	max-width: 30%;
-	max-height: 30%;
-	display: block;
+	width: 20%;
+	height: auto;
 	margin: 0 auto;
-	border: 5px;
-	border-style: dashed;
-	border-color: #333;
-	margin-bottom: 2%;
+	display: block;
+	margin-top: 2%;
 }
 
 .page_content h2
