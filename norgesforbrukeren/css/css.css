@@ -1,7 +1,7 @@
 body 
 
 {
-	background-color: #e8ddce;
+	background-color: #f1f1f1;
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -44,4 +44,93 @@ body
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.main_content h1
+
+{
+  font-family: Code Bold, Verdana, Times sans-serif;
+  font-size: 36px;
+  color: #434343; 
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main_content h2
+
+{
+  font-family: Plantagenet Cherokee, Verdana, Times, sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+.main_content h2 a img 
+
+{
+  max-width: 8%;
+  max-height: 8%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.main_content p
+
+{
+  font-family: Garamond, Verdana, Times, sans-serif;
+  font-size: 18px;
+  color: #434343;
+  margin-left: 12%;
+}
+
+.main_content ul
+
+{
+  list-style: circle;
+}
+
+.main_content ul li
+
+{
+  font-family: Plantagenet Cherokee, Verdana, Times, sans-serif;
+  font-size: 20px;
+  color: #434343;
+  margin-left: 32%;
+  margin-top: 1%;
+}
+
+.main_content h3, .solution h3
+
+{
+  font-family: Garamond, Verdana, Times, sans-serif;
+  font-size: 20px;
+  color: #434343;
+  text-align: center; 
+}
+
+.solution h2 
+
+{
+  font-family: Plantagenet Cherokee, Verdana, Times, sans-serif;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 5%; 
+}
+
+.solution img
+
+{
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 8%;
+}
+
+.solution p
+
+{
+  font-family: Garamond, Verdana, Times, sans-serif;
+  font-size: 18px;
+  color: #434343;
+  margin-left: 25%;
 }
