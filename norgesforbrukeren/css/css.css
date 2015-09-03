@@ -1,0 +1,47 @@
+body 
+
+{
+	background-color: #e8ddce;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.menu 
+
+{
+	background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+	display: block;
+	margin: 0 auto
+}
+
+
+.menu nav ul 
+
+{
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  
+}
+
+.menu nav li 
+
+{
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  text-align: center;
+}
+
+.menu nav li  a 
+
+{
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
