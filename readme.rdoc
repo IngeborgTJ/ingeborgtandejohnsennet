@@ -1,8 +1,4 @@
 
-=== Ingeborg Tande Johnsens Portfolio
+=== Digital prototype av prosjekter - Ingeborg Tande Johnsen
 
-Dette er min portofolieside med skoleoppgaver, samt egne prosjekter.
-
-Ønsker du å kontakte meg? Gå til: http://ingeborgtandejohnsen.no 
-
-PS! The webpage is in Norwegian.
+Denne siden er for prosjekter som krever en live prototype. Vil du se hva jeg kan bidra med? Gå til: http://www.ingeborgtandejohnsen.no/.
